@@ -1,0 +1,70 @@
+/* Body */
+* {
+    padding: 0;
+    margin: 0;
+    }
+/* header */
+.Header-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #19344b;
+    color:aliceblue;
+    position: sticky;
+    top: 0;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+    padding-bottom: 40px;    
+}
+.h1{
+    font-size: 45px;
+    flex: inherit;
+    padding-top: 15px;
+}
+/* Container */
+.container {
+    margin-top: 10px;
+  }
+/* Value lists */
+ul { 
+    list-style-type: none;
+    padding-left: 0;
+}
+li { 
+    font-size: 10pt;
+    padding: 5px 5px;
+    font-size: larger;
+}
+/* forecast card */
+.col { 
+    padding: 4px;
+}
+/* Current History Card */
+.card {
+    width: 100%;
+    background-color: #ececec;
+}
+/* Forecast History Card */
+.forecast-card {
+    color: white;
+    background-color:#c7e3fc;
+    border-radius: 5px;
+    font-size: 8pt;
+}
+/* search section styling */
+.search-section {
+    height: 100%;
+}
+/* city history sytling */
+#previous-search {
+    border: solid;
+    border-width: thin;
+    border-radius: 5px;
+    margin: 5px;
+    padding-left: 2px;
+}
+/* forecast header */
+#forecast-header {
+    margin-left: 10px;
+    margin-top: 10px;
+    color: black;
+}
